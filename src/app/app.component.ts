@@ -8,5 +8,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'form';
+  title = 'Log In';
+  getValue()
+  {
+    return 3+6;
+  }
+
 }
