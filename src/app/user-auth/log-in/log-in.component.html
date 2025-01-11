@@ -1,0 +1,33 @@
+<p>log-in works!</p>
+<div class="row">
+    <button type="button" class="btn btn-primary">Click Me</button>
+    <button type="button" class="btn btn-secondary">Save Me</button>
+    
+</div>
+@switch (month) {
+    @case ("jan") {
+        <p>January
+            26th Republic Day
+        </p>
+    }
+    @case ("feb") {
+        <p>february
+            14th Valentine's Day
+        </p>
+    }
+    @case ("mar") {
+        <p>March
+        </p>
+    }
+    @case ("apr") {
+        <p>April
+        </p>
+    }
+    @case ("May") {
+        <p>May
+        </p>
+    }
+    @default {
+        <p>Invalid Month Default case</p>
+    }
+}
